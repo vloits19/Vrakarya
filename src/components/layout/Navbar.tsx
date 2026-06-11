@@ -29,12 +29,9 @@ export function Navbar() {
                 className="flex items-center gap-2.5 group"
                 id="nav-logo"
               >
-                <div className="w-8 h-8 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                  <Image src="/LogoVrakarya.svg" alt="Vrakarya Logo" width={32} height={32} />
+                <div className="h-8 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+                  <Image src="/LogoVrakarya.svg" alt="Vrakarya Logo" width={140} height={32} className="h-full w-auto" priority />
                 </div>
-                <span className="text-lg font-bold gradient-text hidden sm:inline">
-                  {SITE_NAME}
-                </span>
               </Link>
 
               {/* Desktop Nav */}
