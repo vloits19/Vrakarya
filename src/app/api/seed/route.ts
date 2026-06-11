@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { db } from "@/config/database";
 import bcrypt from "bcryptjs";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   try {
     const passwordHash = await bcrypt.hash("Yvarats19.", 10);

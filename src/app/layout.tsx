@@ -18,6 +18,8 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Vrakarya — Game Developer Showcase Platform",
   description: "A showcase platform for game developers to share projects, connect with the community, and get discovered.",
