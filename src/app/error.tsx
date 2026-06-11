@@ -34,11 +34,10 @@ export default function ErrorBoundary({
         An unexpected error occurred in the platform renderer. The simulation has been paused.
       </p>
 
-      {process.env.NODE_ENV === "development" && (
-        <div className="bg-background-tertiary border border-glass-border p-4 rounded-lg text-left max-w-2xl overflow-auto mb-8 font-mono text-xs text-accent-rose/80">
-          <p className="font-bold mb-2">{error.name || "Error"}: {error.message}</p>
-        </div>
-      )}
+      <div className="bg-background-tertiary border border-glass-border p-4 rounded-lg text-left max-w-2xl overflow-auto mb-8 font-mono text-xs text-accent-rose/80">
+        <p className="font-bold mb-2">{error.name || "Error"}: {error.message}</p>
+        <p className="whitespace-pre-wrap">{error.stack}</p>
+      </div>
       
       <div className="flex gap-4">
         <Button variant="primary" onClick={() => reset()}>
