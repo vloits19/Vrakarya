@@ -6,6 +6,8 @@ export const metadata = {
   title: "Admin Overview — Vrakarya",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminOverviewPage() {
   const { userCount, projectCount, postCount } = await getPlatformStats();
 

@@ -8,6 +8,8 @@ export const metadata = {
   description: "Discover and connect with game creators from around the world.",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function DevelopersPage() {
   const developers = await db.user.findMany({
     orderBy: { createdAt: "desc" },
