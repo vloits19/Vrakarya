@@ -1,0 +1,182 @@
+{
+  "words": [
+    {
+      "pattern": "kontol",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "memek",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "ngentot",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "entot",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "pepek",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "jembut",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "ngewe",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "tempik",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "titit",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "goblok",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "goblog",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "tolol",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "bodoh",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "bego",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "bangsat",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "bajingan",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "anjing",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "asu",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "kampret",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "keparat",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "setan",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "iblis",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "brengsek",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "sialan",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "tai",
+      "severity": 1,
+      "category": "mild_profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "jancuk",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "jancok",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "cukimai",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "kimak",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "pantek",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "pukimak",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "sundala",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "lonte",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "pelacur",
+      "severity": 2,
+      "category": "profanity"
+    }
+  ]
+}

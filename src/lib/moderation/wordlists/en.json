@@ -1,0 +1,163 @@
+{
+  "words": [
+    {
+      "pattern": "nigger",
+      "severity": 3,
+      "category": "racial_slur"
+    },
+    {
+      "pattern": "nigga",
+      "severity": 3,
+      "category": "racial_slur"
+    },
+    {
+      "pattern": "faggot",
+      "severity": 3,
+      "category": "homophobic_slur"
+    },
+    {
+      "pattern": "fag",
+      "severity": 3,
+      "category": "homophobic_slur",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "retard",
+      "severity": 2,
+      "category": "ableist_slur"
+    },
+    {
+      "pattern": "chink",
+      "severity": 3,
+      "category": "racial_slur",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "spic",
+      "severity": 3,
+      "category": "racial_slur",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "kike",
+      "severity": 3,
+      "category": "racial_slur",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "coon",
+      "severity": 3,
+      "category": "racial_slur",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "wetback",
+      "severity": 3,
+      "category": "racial_slur"
+    },
+    {
+      "pattern": "fuck",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "shit",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "bitch",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "asshole",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "dick",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "pussy",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "cock",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "cunt",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "whore",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "slut",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "bastard",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "idiot",
+      "severity": 1,
+      "category": "insult"
+    },
+    {
+      "pattern": "moron",
+      "severity": 1,
+      "category": "insult",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "dumbass",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "motherfucker",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "bullshit",
+      "severity": 2,
+      "category": "profanity"
+    },
+    {
+      "pattern": "damn",
+      "severity": 1,
+      "category": "mild_profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "stfu",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    },
+    {
+      "pattern": "gtfo",
+      "severity": 2,
+      "category": "profanity",
+      "requireBoundary": true
+    }
+  ]
+}
