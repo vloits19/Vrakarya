@@ -7,20 +7,25 @@ import { TiltCard } from "@/components/effects/TiltCard";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 
 export async function FeaturedProjects() {
-  const projects = await db.project.findMany({
-    take: 6,
-    orderBy: { createdAt: "desc" }, // No featured flag yet in schema, using latest
-    include: {
-      author: {
-        select: {
-          id: true,
-          displayName: true,
-          avatarUrl: true,
-          username: true,
+  let projects;
+  try {
+    projects = await db.project.findMany({
+      take: 6,
+      orderBy: { createdAt: "desc" },
+      include: {
+        author: {
+          select: {
+            id: true,
+            displayName: true,
+            avatarUrl: true,
+            username: true,
+          },
         },
       },
-    },
-  });
+    });
+  } catch (err: any) {
+    return <div className="p-8 text-red-500 font-mono text-sm max-w-4xl mx-auto break-words">FeaturedProjects Error: {String(err.message)}</div>;
+  }
 
   if (projects.length === 0) {
     return null;

@@ -4,20 +4,25 @@ import { Clock, ArrowRight, Gamepad2 } from "lucide-react";
 import { db } from "@/config/database";
 
 export async function LatestUploads() {
-  const latestProjects = await db.project.findMany({
-    orderBy: { createdAt: "desc" },
-    take: 8,
-    include: {
-      author: {
-        select: {
-          id: true,
-          displayName: true,
-          avatarUrl: true,
-          username: true,
+  let latestProjects;
+  try {
+    latestProjects = await db.project.findMany({
+      orderBy: { createdAt: "desc" },
+      take: 8,
+      include: {
+        author: {
+          select: {
+            id: true,
+            displayName: true,
+            avatarUrl: true,
+            username: true,
+          },
         },
       },
-    },
-  });
+    });
+  } catch (err: any) {
+    return <div className="p-8 text-red-500 font-mono text-sm max-w-4xl mx-auto break-words">LatestUploads Error: {String(err.message)}</div>;
+  }
 
   if (latestProjects.length === 0) {
     return null;
